@@ -1,5 +1,5 @@
 import React from "react";
-import {View} from "react-native"
+import {StatusBar} from "react-native"
 import Home from "./src/pages/Home";
 
 
@@ -7,6 +7,9 @@ import Home from "./src/pages/Home";
 function App() {
   return (
     <>
+      <StatusBar
+        backgroundColor={'black'}
+      />
       <Home/>
     </>
   )
